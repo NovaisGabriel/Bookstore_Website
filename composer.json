@@ -1,0 +1,20 @@
+{
+    "name": "bookstore/bookstore_website",
+    "description": "start project",
+    "authors": [
+        {
+            "name": "Gabriel Novais",
+            "email": "bookstore@website.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bookstore\\": "vendor\\bookstore\\php-classes\\src"
+        }
+    }
+}
