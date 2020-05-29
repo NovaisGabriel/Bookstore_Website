@@ -21,8 +21,8 @@ class Page {
 
 		$config = array(
 		    "base_url"      => null,
-		    "tpl_dir"       => "/opt/lampp/htdocs/Bookstore_Website/views/",
-		    "cache_dir"     => "/opt/lampp/htdocs/Bookstore_Website/views-cache/",
+		    "tpl_dir"       => "/opt/lampp/htdocs/bookstore/views/",
+		    "cache_dir"     => "/opt/lampp/htdocs/bookstore/views-cache/",
 		    "debug"         => false
 		);
 
